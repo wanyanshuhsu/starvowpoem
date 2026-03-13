@@ -10,7 +10,7 @@ source.main = mobile_app.py
 
 version = 1.0.0
 
-requirements = python3,kivy==2.2.1,pillow
+requirements = python3,kivy
 
 android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 
