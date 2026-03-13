@@ -32,6 +32,10 @@ jobs:
         pip3 install --upgrade pip
         pip3 install buildozer cython
 
+    - name: Accept Android SDK licenses
+      run: |
+        yes | buildozer android debug || true
+
     - name: Build APK with Buildozer
       run: |
         buildozer android debug
