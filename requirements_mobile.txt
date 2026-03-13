@@ -1,0 +1,7 @@
+# 移动端依赖
+kivy==2.2.1
+pillow>=9.0.0
+
+# 如果在Windows上测试，需要安装
+# kivy-deps.sdl2
+# kivy-deps.glew
